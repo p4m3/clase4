@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive');
+
+body {
+	padding-top: 3.5rem;
+	background: white;
+	font-family: "Cutive", serif;
+	font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Cutive", serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+p{
+	font-family: "Helvetica", "Arial", sans;
+}
+
+div.container{
+	background-color: white;
+	padding: 2rem;
+}
+
+img{
+	border: 5px solid black;
+	object-fit: fill;
+	border-radius: 20px;
+}
+
+:hover{
+	transition:  all ease 0.5s;
+}
+
+img:hover{
+	filter: grayscale(100%);
+}
+
+nav div[class^="col"]{
+	padding-top: 0;
+}
+
+#col1{
+	padding: 3rem;
+	background: #FFC600;
+}
+
+#col2{
+	padding: 3rem;
+	background: #D30000;
+}
+
+#col3{
+	padding: 3rem;
+	background: #0075C7;
+}
+
+#col4{
+	padding: 3rem;
+	background: #00b300;
+}
+
+.bg-lalala{
+	background: hsl(0, 0%, 83%);
+}
+
+.bg-red{
+	background: #D30000;
+}
+
+footer{
+	color: grey;
+	text-align: center;
+	font-size: 75%;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+:hover{
+	transition:  all ease 0.1s;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #D30000;
+}
